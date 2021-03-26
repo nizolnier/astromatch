@@ -9,7 +9,7 @@ function Error() {
                 <Dot></Dot>
                 <Dot></Dot>
             </Dots>
-       <OhNo>Eita! Nenhum match, que tal passar um desodorante?</OhNo>
+       <OhNo>Oh no! No matches, how about you spray some cologne?</OhNo>
     </ErrorContainer>
 
   )

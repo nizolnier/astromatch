@@ -19,7 +19,7 @@ const Credits = styled.a`
 function Footer() {
   return (
     <CreditsDiv>
-        <Credits target="_blank" href="https://github.com/future4code/Nicole-Zolnier">Desenvolvido por: Nicole Zolnier</Credits>
+        <Credits target="_blank" href="https://github.com/future4code/Nicole-Zolnier">Developed by Nicole Zolnier</Credits>
     </CreditsDiv>
 
   )

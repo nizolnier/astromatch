@@ -9,7 +9,7 @@ function Error() {
                 <Dot></Dot>
                 <Dot></Dot>
             </Dots>
-            <OhNo>Ops! Você já viu todos os perfis!</OhNo>            
+            <OhNo>Whops! You've already seen all the profiles!</OhNo>            
         </ErrorContainer>
     )
 

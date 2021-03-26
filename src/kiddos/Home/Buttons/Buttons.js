@@ -6,7 +6,6 @@ import coloredNo from '../../../assets/painted-dislike.svg'
 import {Icon, ButtonContainer} from './styled'
 
 function Buttons(props) {
-  // renderização dos icons
   const yesIcon = props.yes ? (coloredYes) : (greyYes)
 
   const noIcon = props.no ? (coloredNo) : (greyNo)
