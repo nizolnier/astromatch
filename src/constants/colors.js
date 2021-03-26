@@ -1,7 +1,7 @@
 
-// cores usadas para referência para minha cabeça doida (nem todas foram usadas no codigo mas sim nos icons)
+// colors used for reference (not all of them are used in the code, but in the icons)
 
-// obs: nome das cores sao da minha cabeça doida tbm
+// obs: colors names were created by me :)
 export const skyBlue = "#66C7F4"
 
 export const softBlue = "#C1FFFF"

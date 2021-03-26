@@ -1,20 +1,15 @@
 import React from 'react'
-import {Animation, AnimationContainer} from './styled'
-import Tooltip from '@material-ui/core/Tooltip'
+import { Animation, AnimationContainer } from './styled'
 
 
 function Loading() {
     return (
-        <Tooltip title="Tá carregando!" arrow>
-            <AnimationContainer>
+        <AnimationContainer>
             <Animation></Animation>
         </AnimationContainer>
-        </Tooltip>
-        
 
     )
 
-
 }
 
-export default Loading;
+export default Loading
