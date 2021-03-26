@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {hotPink, notBlack} from '../constants/colors'
+import { hotPink, notBlack } from '../constants/colors'
 
 const CreditsDiv = styled.div`
   padding: 1em;
@@ -19,11 +19,11 @@ const Credits = styled.a`
 function Footer() {
   return (
     <CreditsDiv>
-        <Credits target="_blank" href="https://github.com/future4code/Nicole-Zolnier">Developed by Nicole Zolnier</Credits>
+      <Credits target="_blank" href="https://github.com/future4code/Nicole-Zolnier">Developed by Nicole Zolnier</Credits>
     </CreditsDiv>
 
   )
 
 }
-  
+
 export default Footer;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Footer from './components/Footer'
 import RenderScreen from './screens/RenderScreen';
 import 'fontsource-roboto'
-import {softPink} from './constants/colors'
+import { softPink } from './constants/colors'
 
 const Background = styled.div`
   background-color: ${softPink};
@@ -17,13 +17,12 @@ const Background = styled.div`
 
 function App() {
   return (
-      <Background>
-        <RenderScreen />
-        <Footer />
-      </Background>
+    <Background>
+      <RenderScreen />
+      <Footer />
+    </Background>
+  )
 
-
-  );
 }
 
 export default App;

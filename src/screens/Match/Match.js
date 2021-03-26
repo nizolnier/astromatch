@@ -5,7 +5,7 @@ import Error from '../../components/Errors/ErrorMatch'
 import ItsMatch from '../../kiddos/Matches/ItsMatch'
 import NavBar from '../../components/NavBar/NavBar'
 import { baseUrl } from "../../constants/urls"
-import {ScrollBar} from './styled'
+import { ScrollBar } from './styled'
 import Loading from '../../components/Loading/Loading'
 
 
@@ -32,16 +32,17 @@ function Match(props) {
   }, [matches])
 
   const renderMatches = matches.map((item) => {
-    return <MatchCard key={item.id} name={item.name} photo={item.photo}/>
+    return <MatchCard key={item.id} name={item.name} photo={item.photo} />
   })
 
   return (
     <div>
-      <NavBar getMatches={getMatches} currentPage={props.currentPage} goToHome={props.goToHome} goToMatches={props.goToMatches}/>
-      {loaded? (matches.length? ( <div><ItsMatch /> <ScrollBar>{renderMatches}</ScrollBar></div>) : <Error matches={matches} /> ) : <Loading /> }
-      
+      <NavBar getMatches={getMatches} currentPage={props.currentPage} goToHome={props.goToHome} goToMatches={props.goToMatches} />
+      {loaded ? (matches.length ? (<div><ItsMatch /> <ScrollBar>{renderMatches}</ScrollBar></div>) : <Error matches={matches} />) : <Loading />}
+
     </div>
-  );
+  )
+  
 }
 
 export default Match;

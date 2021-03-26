@@ -36,7 +36,7 @@ function Home(props) {
     }).catch((err) => {
       console.log(err.message)
     })
-    
+
   }
 
   // yes / coração = true
@@ -64,14 +64,14 @@ function Home(props) {
   };
 
   const choosePerson = (answer) => {
-    if(answer){
+    if (answer) {
       setYes(true)
       setSwipeLeft(true)
-    } else{
+    } else {
       setNo(true)
       setSwipeRight(true)
     }
-   
+
     const body = {
       id: profile.id,
       choice: answer
@@ -93,12 +93,13 @@ function Home(props) {
   return (
     <div>
       <MatchAlert open={isMatch} close={handleClose} />
-      
-      <NavBar getProfile={getProfile} currentPage={props.currentPage} goToHome={props.goToHome} goToMatches={props.goToMatches}/>
-      {loaded? (!profile ? <Error /> : <ProfileCard swipeLeft={swipeLeft} swipeRight={swipeRight} profile={profile} />) : <Loading />}
-      {loaded? (!profile ? null : <Buttons mouseOverIcon={mouseOverIcon} mouseOutIcon={mouseOutIcon} no={no} yes={yes} choosePerson={choosePerson} />) : <Loading /> }
+
+      <NavBar getProfile={getProfile} currentPage={props.currentPage} goToHome={props.goToHome} goToMatches={props.goToMatches} />
+      {loaded ? (!profile ? <Error /> : <ProfileCard swipeLeft={swipeLeft} swipeRight={swipeRight} profile={profile} />) : <Loading />}
+      {loaded ? (!profile ? null : <Buttons mouseOverIcon={mouseOverIcon} mouseOutIcon={mouseOutIcon} no={no} yes={yes} choosePerson={choosePerson} />) : <Loading />}
     </div>
-  );
+  )
+  
 }
 
 export default Home;

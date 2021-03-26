@@ -3,7 +3,7 @@ import greyYes from '../../../assets/grey-like.svg'
 import greyNo from '../../../assets/grey-dislike.svg'
 import coloredYes from '../../../assets/painted-like.svg'
 import coloredNo from '../../../assets/painted-dislike.svg'
-import {Icon, ButtonContainer} from './styled'
+import { Icon, ButtonContainer } from './styled'
 
 function Buttons(props) {
   const yesIcon = props.yes ? (coloredYes) : (greyYes)
