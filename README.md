@@ -27,7 +27,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Clear matches / seen profiles
 
 <a id="libs"></a>
-## ✦ Libs and Frameworks
+## ✦ Libraries and Frameworks
 * React
 * Axios
 * styled-components
@@ -50,7 +50,7 @@ Esse projeto utiliza uma API desenvolvida pela Labenu. Projeto desenvolvido com 
 - [Bibliotecas e Frameworks](#bibliotecas)
 
 <a id="funcionalidades"></a>
-## Funcionalidades:
+## ✦ Funcionalidades:
 * Mostrar perfis aleatoriamente
 * Gostar de um perfil
 * Não gostar de um perfil
@@ -58,7 +58,7 @@ Esse projeto utiliza uma API desenvolvida pela Labenu. Projeto desenvolvido com 
 * Limpar todos os matches / perfis vistos 
 
 <a id="bibliotecas"></a>
-## Bibliotecas e Frameworks
+## ✦ Bibliotecas e Frameworks
 * React
 * Axios
 * styled-components
