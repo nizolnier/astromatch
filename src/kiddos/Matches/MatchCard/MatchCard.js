@@ -15,7 +15,7 @@ function MatchCard(props) {
         }}
         variant="dot"
       >
-        <Avatar className={classes.large} alt="foto de perfil" src={props.photo} />
+        <Avatar className={classes.large} alt="profile picture" src={props.photo} />
       </StyledBadge>
         </div>
         <Typography variant="h6" >{props.name}</Typography>
