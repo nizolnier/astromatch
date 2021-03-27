@@ -38,7 +38,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -------
 
 <a id="pt-readme"></a>
-### [English](#en-readme) | Português
+## [English](#en-readme) | Português
 [Astromatch](https://astromatch-nz.surge.sh/) é um projeto front-end feito no bootcamp da Labenu e baseado no Tinder.
 
 Unindo mundos em prol do amor! Com o Astromatch, você pode encontrar personalidades de toda a galáxia, dar like ou não dar like e ver se dá um match! 🔥
