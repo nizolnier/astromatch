@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://astromatch-nz.surge.sh/"><img src="https://svgur.com/i/VU_.svg" alt="Markdownify" width="500"></a>
+  <a href="https://astromatch-nz.surge.sh/"><img src=./src/assets/logo-astromatch.svg" alt="logo astromatch" width="500"></a>
   <br>
 </h1>
 
