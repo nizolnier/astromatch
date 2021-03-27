@@ -1,12 +1,12 @@
 import React from 'react'
-import {Avatar, Typography} from '@material-ui/core';
-import {PersonContainer, StyledBadge, useStyles} from './styled'
+import { Avatar, Typography } from '@material-ui/core';
+import { PersonContainer, StyledBadge, useStyles } from './styled'
 
 function MatchCard(props) {
   const classes = useStyles();
-    return (
-      <PersonContainer >
-        <div className={classes.root}>
+  return (
+    <PersonContainer >
+      <div className={classes.root}>
         <StyledBadge
         overlap="circle"
         anchorOrigin={{
@@ -20,7 +20,8 @@ function MatchCard(props) {
         </div>
         <Typography variant="h6" >{props.name}</Typography>
       </PersonContainer>
-    );
+    )
+    
   }
   
 export default MatchCard;
